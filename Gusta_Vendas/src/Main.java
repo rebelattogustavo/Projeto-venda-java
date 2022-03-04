@@ -38,7 +38,6 @@ public class Main {
 
         switch(opcao){
             case 1:
-            System.out.println("sd");
                 break;
             case 2:
                 break;
