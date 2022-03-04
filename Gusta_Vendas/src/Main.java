@@ -32,13 +32,26 @@ public class Main {
         System.out.println("--- MENU PRINCIPAL ---" +
                 "\n1- Cadastrar Cliente" +
                 "\n2- Verificar estoque" +
-                "\n3- Cadastrar produto");
+                "\n3- Cadastrar produto" +
+                "\n4- Encerrar");
         int opcao = tec.nextInt();
+
+        switch(opcao){
+            case 1:
+            System.out.println("sd");
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+        }
 
         for(int i =0; i<Funcionario.listaFuncionarios.size(); i++){
             if(Funcionario.listaFuncionarios.get(i).getMatricula() == matricula){
                 if (Funcionario.listaFuncionarios.get(i).getSenha() == senha){
-                    System.out.println("4- Cadastrar funcionário");
+                    System.out.println("5- Cadastrar funcionário");
                 }else{
                     System.out.println("Senha incorreta!");
                 }
