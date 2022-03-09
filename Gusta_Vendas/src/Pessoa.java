@@ -77,7 +77,7 @@ public class Pessoa extends Endereco{
         for (int i =0; i < (Cliente.listaClientes.size() + Funcionario.listaFuncionarios.size());i++){
             if(codCF == Cliente.listaClientes.get(i).getCadastro() ||
                 codCF == Funcionario.listaFuncionarios.get(i).getMatricula()){
-                
+
                     System.out.print("Informe o código do produto: ");
                     int codP = tec.nextInt();
                     for(int i2 =0; i2<Produto.listaProdutos.size();i2++){
@@ -88,7 +88,7 @@ public class Pessoa extends Endereco{
                             Produto.listaProdutos.get(i2).setQuantidade(Produto.listaProdutos.get(i2).getQuantidade() - qtdDesej);
                         }
                     }if(cont==0){
-                        System.out.println("Produto inválido!");
+                        System.out.println("Produto inválido!!");
                 }
             }
         }
