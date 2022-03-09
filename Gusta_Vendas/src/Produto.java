@@ -66,7 +66,7 @@ public class Produto {
         this.valor = valor;
     }
 
-    public static void reduzirEstoque(){
+    public void reduzirEstoque(){
 
     }
 

@@ -17,8 +17,11 @@ public class Cliente extends Pessoa{
         super();
     }
 
-    public Cliente(String nome, String cpf, String email, String telefone, String genero, int idade, int cadastro) {
-        super(nome, cpf, email, telefone, genero, idade);
+    public Cliente(String nome, String cpf, String email, String telefone, String genero, int idade,
+                   String pais, String estado, String cidade, String bairro, String rua, String complemento,
+                   int cep, int numeroCasa, int cadastro) {
+        super(nome, cpf, email, telefone, genero, idade, pais, estado, cidade, bairro, rua, complemento, cep,
+                numeroCasa);
         this.cadastro = cadastro;
     }
 }
