@@ -59,7 +59,8 @@ public class Main {
                     "\n6- Voltar" +
                     "\n0- Encerrar");
         }else{
-            System.out.println("5- Voltar" +
+            System.out.println("5- Vender" +
+                    "\n6- Voltar" +
                     "\n0- Encerrar");
         }
 
